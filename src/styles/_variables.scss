@@ -1,22 +1,22 @@
 @charset 'utf-8';
 
 $colors: (
-    primary: (
-        base: #1d1c1d,
-    ),
-    shadow: (
-        base: #00000014,
-    ),
+  primary: (
+    base: #1d1c1d,
+  ),
+  shadow: (
+    base: #00000014,
+  ),
 );
 
-$font-family: 'Noto Sans JP', 'NotoSans', 'NotoSansCJKJP', '游ゴシック体',
-    YuGothic, 'Yu Gothic M', '游ゴシック Medium', 'Yu Gothic Medium', sans-serif;
+$font-family: "Noto Sans JP", "NotoSans", "NotoSansCJKJP", "游ゴシック体",
+  YuGothic, "Yu Gothic M", "游ゴシック Medium", "Yu Gothic Medium", sans-serif;
 
 $breakpoints: (
-    'pc': 'screen and (min-width: 768px)',
-    'pc_wide': 'screen and (min-width: 1000px)',
-    'phone': 'screen and (max-width: 375px)',
-    'mobile_editor': 'screen and (max-width: 1000px)',
-    'mobile': 'screen and (max-width: 767px)',
-    'tb': 'screen and (min-width:768px) and (max-width:1100px)',
+  "pc": "screen and (min-width: 768px)",
+  "pc_wide": "screen and (min-width: 1000px)",
+  "phone": "screen and (max-width: 375px)",
+  "mobile_editor": "screen and (max-width: 1000px)",
+  "mobile": "screen and (max-width: 767px)",
+  "tb": "screen and (min-width:768px) and (max-width:1100px)",
 );
