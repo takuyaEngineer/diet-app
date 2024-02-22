@@ -1,7 +1,7 @@
 import React from 'react'
-import styles from "./top.module.scss"
-import { Header } from "../../primaries/header"
-import { Calender } from "../../primaries/calender"
+import styles from './top.module.scss'
+import { Header } from '../../primaries/header'
+import { Calender } from '../../primaries/calender'
 
 function Top() {
     return (
