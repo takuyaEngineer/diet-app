@@ -6,11 +6,11 @@ type ValuePiece = Date | null
 
 type Value = ValuePiece | [ValuePiece, ValuePiece]
 
-export const Calender = () => {
-  const [value, onChange] = useState<Value>(new Date())
-  return (
+export const Calender: React.FC = () => {
+    const [value, onChange] = useState<Value>(new Date())
+    return (
         <div>
             <Calendar onChange={onChange} value={value} />
         </div>
-  )
+    )
 }

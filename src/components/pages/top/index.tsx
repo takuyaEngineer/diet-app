@@ -3,7 +3,7 @@ import styles from './top.module.scss'
 import { Header } from '../../primaries/header'
 import { Calender } from '../../primaries/calender'
 
-function Top() {
+const Top: React.FC = () => {
     return (
         <div className={styles.Top}>
             <Header></Header>

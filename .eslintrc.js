@@ -1,11 +1,12 @@
 module.exports = {
-    "env": {
-        "browser": true,
-        "es2021": true
+    env: {
+        browser: true,
+        es2021: true,
     },
-    "extends": [
-        "standard-with-typescript",
-        "plugin:react/recommended"
+    extends: [
+        'standard-with-typescript',
+        'plugin:react/recommended',
+        'prettier',
     ],
     // "overrides": [
     //     {
@@ -20,14 +21,13 @@ module.exports = {
     //         }
     //     }
     // ],
-    "parserOptions": {
-        "ecmaVersion": "latest",
-        "sourceType": "module",
-        "project": "./tsconfig.json"
+    parserOptions: {
+        ecmaVersion: 'latest',
+        sourceType: 'module',
+        project: './tsconfig.json',
     },
-    "plugins": [
-        "react"
-    ],
-    "rules": {
-    }
+    plugins: ['react'],
+    rules: {
+        "react/react-in-jsx-scope": "off"
+    },
 }
