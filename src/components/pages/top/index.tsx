@@ -1,13 +1,17 @@
 import React from 'react'
-import styles from "./top.module.scss"
-import { Header } from "../../primaries/header"
-import { Calender } from "../../primaries/calender"
+import styles from './top.module.scss'
+import Header from "../../primaries/header"
+import Calender from "../../primaries/calender"
+
+// const a = 2
 
 function Top() {
+    console.log("kkk");
+
     return (
         <div className={styles.Top}>
-            <Header></Header>
-            <Calender></Calender>
+            <Header />
+            <Calender />
         </div>
     )
 }
