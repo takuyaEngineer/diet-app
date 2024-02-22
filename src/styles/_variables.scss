@@ -1,16 +1,13 @@
 @charset 'utf-8';
 
 $colors: (
-    primary: (
-        base: #1d1c1d,
-    ),
-    shadow: (
-        base: #00000014,
-    ),
+    primary: (base: #1D1C1D),
+    shadow: (base: #00000014,
+    )
 );
 
-$font-family: 'Noto Sans JP', 'NotoSans', 'NotoSansCJKJP', '游ゴシック体',
-    YuGothic, 'Yu Gothic M', '游ゴシック Medium', 'Yu Gothic Medium', sans-serif;
+$font-family: "Noto Sans JP", "NotoSans", "NotoSansCJKJP", "游ゴシック体",
+    YuGothic, "Yu Gothic M", "游ゴシック Medium", "Yu Gothic Medium", sans-serif;
 
 $breakpoints: (
     'pc': 'screen and (min-width: 768px)',
