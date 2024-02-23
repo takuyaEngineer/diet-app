@@ -5,6 +5,7 @@ import NaviSide from '../../primaries/navi/side/NaviSide'
 const Top: React.FC = () => {
     return (
         <div className={styles.wrapper}>
+            <NaviSide classname={styles.navi_side}></NaviSide>
             <div className={styles.body}>
                 <div className={styles.contents_area}>
                     <p className={styles.date}>
@@ -30,7 +31,7 @@ const Top: React.FC = () => {
                     <img src="/images/pig.png" alt="" />
                 </div>
             </div>
-            <NaviSide classname={styles.navi_side}></NaviSide>
+            <div></div>
         </div>
     )
 }
