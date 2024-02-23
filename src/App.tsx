@@ -1,6 +1,6 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import Top from './components/pages/top'
+import Top from './components/pages/top/Top'
 
 const App: React.FC = () => {
     return (

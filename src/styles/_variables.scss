@@ -1,7 +1,11 @@
 @charset 'utf-8';
 
 $colors: (
-    primary: (
+    common:(
+        base: #000000,
+        white:#ffffff,
+    ),
+    main: (
         base: #1d1c1d,
     ),
     shadow: (
