@@ -1,5 +1,106 @@
 @charset 'utf-8';
+@use 'styles/' as g;
 
-.aaa {
-    background-color: aqua;
+.wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100dvh;
+    padding-top: 2.4rem;
+    padding-right: 1.6rem;
+    padding-left: 1.6rem;
+    margin-right: auto;
+    margin-left: auto;
+    background: linear-gradient(g.colors(main, light), g.colors(main, dark));
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contents_area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.date {
+    width: 11.5rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 0.1rem solid g.colors(common, white);
+    color: g.colors(common, white);
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 800;
+    line-height: 1.4;
+
+    .day_of_week {
+        font-size: 0.8rem;
+    }
+}
+
+.body_weight {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 0.4rem;
+    color: g.colors(common, white);
+    font-size: 3.6rem;
+    font-weight: 800;
+    line-height: 1.2;
+    // letter-spacing: -4%;
+
+    .body_weight_unit {
+        margin-left: 0.2rem;
+        font-size: 2rem;
+        line-height: 1.4;
+    }
+
+    .body_weight_gain_loss {
+        padding-bottom: 0.55rem;
+        margin-left: 0.4rem;
+        color: g.colors(accent, base);
+        font-size: 1.1rem;
+        line-height: 1.4;
+    }
+}
+
+.stamp_area {
+    display: flex;
+    justify-content: center;
+    gap: 0.4rem;
+    margin-top: 0.4rem;
+
+    .stamp {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.8rem;
+        height: 2.2rem;
+        padding-right: 1.2rem;
+        padding-left: 1.2rem;
+        border-radius: 0.4rem;
+        background-color: rgba($color: g.colors(common, white), $alpha: 0.4);
+    }
+
+    .stamp_text {
+        color: g.colors(common, white);
+        font-size: 0.8rem;
+        font-weight: 800;
+        line-height: 1.4;
+    }
+
+    .stamp_icon {
+        width: 1.4rem;
+        height: 1.4rem;
+        padding: 0.1rem;
+    }
+}
+
+.navi_side {
+    position: absolute;
+    top: 0.8rem;
+    right: 1.6rem;
 }

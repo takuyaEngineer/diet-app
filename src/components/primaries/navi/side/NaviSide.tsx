@@ -1,9 +1,14 @@
 import React from 'react'
 import styles from './naviSide.module.scss'
+import classNames from 'classnames'
 
-const NaviSide: React.FC = () => {
+interface props {
+    classname?: string
+}
+
+const NaviSide: React.FC<props> = (props: props) => {
     return (
-        <div className={styles.wrapper}>
+        <div className={classNames(styles.wrapper, props.classname)}>
             <div className={styles.item}>
                 <img className={styles.itemIcon} src="/images/settings.jpg" alt="" />
             </div>
