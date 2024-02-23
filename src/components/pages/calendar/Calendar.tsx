@@ -1,7 +1,8 @@
+import CalendarMonth from 'components/primaries/calender/month/CalendarMonth'
 import React from 'react'
 
 const Calendar: React.FC = () => {
-    return <div>Calendar</div>
+    return <CalendarMonth></CalendarMonth>
 }
 
 export default Calendar
