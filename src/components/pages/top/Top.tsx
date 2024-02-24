@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './top.module.scss'
 import NaviSide from '../../primaries/navi/side/NaviSide'
+import StampWithText from 'components/atoms/stamp/stampWithText/StampWithText'
 
 const Top: React.FC = () => {
     return (
@@ -17,14 +18,8 @@ const Top: React.FC = () => {
                         <span className={styles.body_weight_gain_loss}>+0.4kg</span>
                     </p>
                     <div className={styles.stamp_area}>
-                        <div className={styles.stamp}>
-                            <p className={styles.stamp_text}>食事</p>
-                            <img className={styles.stamp_icon} src="/images/emoticon.png" alt="" />
-                        </div>
-                        <div className={styles.stamp}>
-                            <p className={styles.stamp_text}>運動</p>
-                            <img className={styles.stamp_icon} src="/images/emoticon.png" alt="" />
-                        </div>
+                        <StampWithText text="食事" icon_url="emoticon.png"></StampWithText>
+                        <StampWithText text="運動" icon_url="emoticon.png"></StampWithText>
                     </div>
                 </div>
                 <div className={styles.char_area}>

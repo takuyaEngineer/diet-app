@@ -72,31 +72,6 @@
     justify-content: center;
     gap: 0.4rem;
     margin-top: 0.4rem;
-
-    .stamp {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 0.8rem;
-        height: 2.2rem;
-        padding-right: 1.2rem;
-        padding-left: 1.2rem;
-        border-radius: 0.4rem;
-        background-color: rgba($color: g.colors(common, white), $alpha: 0.4);
-    }
-
-    .stamp_text {
-        color: g.colors(common, white);
-        font-size: 0.8rem;
-        font-weight: 800;
-        line-height: 1.4;
-    }
-
-    .stamp_icon {
-        width: 1.4rem;
-        height: 1.4rem;
-        padding: 0.1rem;
-    }
 }
 
 .navi_side {
