@@ -17,7 +17,7 @@ const CalendarMonth: React.FC = () => {
             <ReactCalendar
                 onChange={onChange}
                 value={value}
-                className={classNames(styles.calendar, 'calendar_month_wrapper')}
+                className={classNames(styles.calendar, 'calendar_month')}
             />
         </div>
     )
