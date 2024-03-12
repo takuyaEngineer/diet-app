@@ -1,0 +1,14 @@
+@charset 'utf-8';
+@use 'styles/' as g;
+
+.calendar_month_wrapper {
+    &.react-calendar {
+        max-width: 60rem;
+    }
+
+    .react-calendar__navigation {
+        .react-calendar__navigation__prev2-button {
+            color: g.colors(common, white);
+        }
+    }
+}
