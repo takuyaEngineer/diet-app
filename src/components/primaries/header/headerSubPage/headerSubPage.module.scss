@@ -1,0 +1,18 @@
+@charset 'utf-8';
+@use 'styles/' as g;
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 60rem;
+    height: 4.8rem;
+}
+
+.go_back_button {
+    color: g.colors(common, white);
+}
+
+.title {
+    color: g.colors(common, white);
+}

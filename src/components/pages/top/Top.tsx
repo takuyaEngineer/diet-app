@@ -7,7 +7,7 @@ const Top: React.FC = () => {
     return (
         <div className={styles.wrapper}>
             <NaviSide classname={styles.navi_side}></NaviSide>
-            <div className={styles.body}>
+            <main className={styles.main}>
                 <div className={styles.contents_area}>
                     <p className={styles.date}>
                         1/21<span className={styles.day_of_week}>(金)</span>
@@ -25,7 +25,7 @@ const Top: React.FC = () => {
                 <div className={styles.char_area}>
                     <img src="/images/pig.png" alt="" />
                 </div>
-            </div>
+            </main>
             <div></div>
         </div>
     )
